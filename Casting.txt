@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <script>
+
+    var variavel = prompt('Digite algum número:')
+    var variavel2 = prompt('Digite outro número')
+
+    variavel = parseInt(variavel) //remove a fracção
+    variavel2 = parseInt(variavel2)
+
+    document.write( variavel + variavel2)  
+    
+    </script>
+  </head>
+
+
+  <body>
+  </body>
+</html>
+
+==========================================================================================
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <script>
+
+    var variavel = 10
+    var variavel2 = 20
+
+    //variavel = parseInt(variavel) //remove a fracção
+    //variavel2 = parseInt(variavel2)
+
+    console.log(variavel)
+    console.log(variavel2)
+
+    document.write( variavel.toString() + variavel2.toString())  
+    
+    </script>
+  </head>
+
+
+  <body>
+  </body>
+</html>
